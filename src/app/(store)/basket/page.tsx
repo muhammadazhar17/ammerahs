@@ -9,7 +9,6 @@ import Image from "next/image";
 import { imageUrl } from "@/lib/imageUrl";
 import createCheckoutSession from "../../../../actions/createCheckoutSession";
 import { GroupedBasketItem } from "../../../../actions/createCheckoutSession"; // Ensure the correct import path
-import { error } from "console";
 
 export default function BasketPage() {
   const groupedItems = useBasketStore((state) => state.getGroupedItems());
