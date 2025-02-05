@@ -30,6 +30,8 @@ export default function BasketPage() {
   const handleProceedToCheckout = async () => {
     if (!isSignedIn) {
       // If the user is not signed in, redirect to the sign-in page
+          router.push(`/sign-in?redirect_url=/checkout`);
+
       return;
     }
 
