@@ -1,0 +1,17 @@
+                                                                                   Test Case Reporting,,,,,,,
+,,,,,,,
+,,,,,,,
+,Test Case ID,Description,Steps,Expected Result,Actual Result,Status,Remarks
+,TC004,Validate user login,Enter valid credentials > Click login,User logs in successfully,User logs in successfully,Passed,No issues found
+,TC005,Check invalid login,Enter incorrect credentials > Click login,Show error message,Error message displayed,Passed,Error handled properly
+,TC006,Verify product search,Enter product name in search bar > Click search,Relevant products displayed,Relevant products displayed,Passed,Search works correctly
+,TC007,Validate checkout process,Add item to cart > Proceed to checkout > Complete payment,Order placed successfully,Order placed successfully,Passed,No issues found
+,TC008,Test logout functionality,Click logout button,User logged out,User logged out,Passed,Works as expected
+,TC009,Verify profile update,Edit profile details > Save changes,Changes saved successfully,Changes saved successfully,Passed,Profile updated correctly
+,TC013,Check password reset,Click forgot password > Enter email > Check email,Reset email received,Reset email received,Passed,No issues found
+,TC014,Verify wishlist functionality,Add product to wishlist > Check wishlist page,Product appears in wishlist,Product appears in wishlist,Passed,Wishlist works fine
+,TC015,Test multiple items in cart,Add multiple items > Verify cart total,Total updates correctly,Total updates correctly,Passed,No issues found
+,TC016,Validate order history,Login > Go to order history page,Past orders displayed,Past orders displayed,Passed,Works correctly
+,TC017,Test slow network handling,Simulate slow network > Load page,Show loading state,Loading state visible,Passed,Graceful degradation
+,TC018,Check accessibility compliance,Run accessibility test tool,No major accessibility issues,No major issues,Passed,Meets accessibility standards
+,TC019,Validate error page for broken links,Visit a non-existent page,Show 404 error page,404 page displayed,Passed,Handled correctly
